@@ -37,4 +37,4 @@ This file contains all the features for test images.
 4)Poutput.csv
 This file contains all output labels for test images.
 
-Accuracy on test images - 90.343
+Accuracy on test images - 90.343%
