@@ -3,7 +3,8 @@ Hand-Written-Digit-Classification
 
 OpenCV(SVM) + C++
 
-It contains from database files from http://yann.lecun.com/exdb/mnist/
+It contains database files from http://yann.lecun.com/exdb/mnist/
+
 1)train-images.idx3-ubyte---- It contains 60,000 images each of size 28*28 (Used for training)
 2)train-labels.idx1-ubyte---- It contains labels of above 60,000 images
 3)t10k-images.idx3-ubyte----- It contains 10,000 images each of size 28*28 (Used for testing)
