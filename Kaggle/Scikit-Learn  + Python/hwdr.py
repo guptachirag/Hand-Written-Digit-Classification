@@ -1,5 +1,7 @@
 import csv
 from sklearn import svm
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import ExtraTreesClassifier
 
 def csvtolist2D(filename):
 	list2D=[]
@@ -172,7 +174,9 @@ def main():
 	testfeatures = scaler.transform(testfeatures)
 	"""
 	print "Starting training..."
-	clf = svm.SVC()
+	#clf = svm.SVC()
+	#clf = RandomForestClassifier(n_estimators=150)
+	clf = ExtraTreesClassifier(n_estimators=150)
 	clf = clf.fit(trfeatures, labels)
 	print "Predicting result..."
 	RFCresult = clf.predict(testfeatures)
