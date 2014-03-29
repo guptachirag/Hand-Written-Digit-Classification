@@ -26,7 +26,7 @@ It works on image database files from http://www.kaggle.com/c/digit-recognizer/d
 * Accuracy on test images using Extra Tree Forrest from scikit - 97.071%
 
 
-##The features used in both parts are :
+###The features used in both parts are :
 
 * first dark pixel in each row from left and right (28+28)
 * first dark pixel in each col from top and bottom (28+28)
