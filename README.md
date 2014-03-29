@@ -33,7 +33,8 @@ It works on image database files from http://www.kaggle.com/c/digit-recognizer/d
 * first dark pixel in each row from center towards left and right (28+28)
 * first dark pixel in each col from center towards top and bottom (28+28)
 * number of dark pixels in each row and col in both halfs saperatly (28+28+28+28)
-###total features = 336
+
+**total features = 336**
 
 
 
